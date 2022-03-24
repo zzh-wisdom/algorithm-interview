@@ -93,24 +93,24 @@ int std_upper_bound(vector<int> &nums, int target) {
 // <https://leetcode-cn.com/problems/search-a-2d-matrix-ii/submissions/>
 
 int main() {
-    vector<int> a = {1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 7, 8, 8, 9, 10};
-    printf("lower_bound:\n");
-    for(auto target: a) {
-        int my_index = my_lower_bound(a, target);
-        int std_index = std_lower_bound(a, target);
-        printf("target: %d, my_index: %d, std_index: %d\n", target, my_index, std_index);
-        if(my_index != std_index) {
-            return -1;
-        }
-    }
-    printf("upper_bound:\n");
-    for(auto target: a) {
-        int my_index = my_upper_bound(a, target);
-        int std_index = std_upper_bound(a, target);
-        printf("target: %d, my_index: %d, std_index: %d\n", target, my_index, std_index);
-        if(my_index != std_index) {
-            return -1;
-        }
-    }
+    // vector<int> a = {1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 7, 8, 8, 9, 10};
+    // printf("lower_bound:\n");
+    // for(auto target: a) {
+    //     int my_index = my_lower_bound(a, target);
+    //     int std_index = std_lower_bound(a, target);
+    //     printf("target: %d, my_index: %d, std_index: %d\n", target, my_index, std_index);
+    //     if(my_index != std_index) {
+    //         return -1;
+    //     }
+    // }
+    // printf("upper_bound:\n");
+    // for(auto target: a) {
+    //     int my_index = my_upper_bound(a, target);
+    //     int std_index = std_upper_bound(a, target);
+    //     printf("target: %d, my_index: %d, std_index: %d\n", target, my_index, std_index);
+    //     if(my_index != std_index) {
+    //         return -1;
+    //     }
+    // }
     return 0;
 }
