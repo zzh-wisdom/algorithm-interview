@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/zzh-u20/algorithm-interview'
+make: Leaving directory '/home/zzh-u20/algorithm-interview'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
