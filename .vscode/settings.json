@@ -64,5 +64,6 @@
         "stack": "cpp",
         "regex": "cpp",
         "valarray": "cpp"
-    }
+    },
+    "kwaipilot.settings.enableLocalAgent": false
 }
